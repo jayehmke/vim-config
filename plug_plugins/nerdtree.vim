@@ -14,7 +14,7 @@ let NERDTreeShowHidden=1
 " Close Vim if NERDTree is the last buffer
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType")
   \&& b:NERDTreeType == "primary") | q | endif
-autocmd VimEnter * NERDTree
+" autocmd VimEnter * NERDTree
 autocmd BufEnter * NERDTreeMirror
 
 autocmd VimEnter * wincmd w
